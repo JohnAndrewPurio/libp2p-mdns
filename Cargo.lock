@@ -1169,7 +1169,6 @@ dependencies = [
 name = "libp2p-mdns"
 version = "0.1.0"
 dependencies = [
- "futures",
  "libp2p",
  "tokio",
  "tracing-subscriber",

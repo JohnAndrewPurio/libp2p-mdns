@@ -4,7 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-futures = "0.3.30"
 libp2p = { version = "0.54.0", features = ["tokio", "quic", "ping", "mdns", "macros", "gossipsub"] }
 tokio = { version = "1.39.2", features = ["rt", "macros", "io-std"] }
 tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }

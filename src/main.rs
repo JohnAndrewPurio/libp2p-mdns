@@ -4,11 +4,8 @@ use std::{
     time::Duration
 };
 
-use futures::StreamExt;
 use libp2p::{
-    gossipsub, mdns, ping,
-    swarm::{NetworkBehaviour, SwarmEvent},
-    Multiaddr, Swarm,
+    futures::StreamExt, gossipsub, mdns, ping, swarm::{NetworkBehaviour, SwarmEvent}, Multiaddr, Swarm
 };
 use tokio::{io, io::AsyncBufReadExt, select};
 use tracing_subscriber::EnvFilter;
